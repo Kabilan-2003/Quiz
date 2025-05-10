@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+manager/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+
+# Media & static
+/staticfiles/
+/media/
+/node_modules/
+
+# Tailwind, build and cache files
+*.css.map
+*.js.map
+*.cache/
+build/
+dist/
+*.sass-cache/
+*.scssc
+
+# VS Code, PyCharm, other IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Migrations (optional — include if you want clean history)
+**/migrations/*.py
+!**/migrations/__init__.py
